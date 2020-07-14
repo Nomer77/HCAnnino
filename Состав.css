@@ -1,0 +1,27 @@
+body {
+	background-image: url(images/фон.png);
+}
+
+.table {
+	background-color: white;
+	border-radius: 8px;
+	margin: 15px;
+}
+#down {
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 25px;	
+	padding: 10px;	
+}
+
+#adres {
+	color: white;
+	font-size: 16px	;
+	text-align: center;
+}
+
+#contact {
+	text-align: right;
+	font-size: 16px;
+	color: white;
+}
