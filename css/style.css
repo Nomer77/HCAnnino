@@ -1,0 +1,181 @@
+/*   !Обнуление    */
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+-ms-text-size-adjust: 100%;
+-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*!--------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+body {
+	background: url("../img/фон.png");
+}
+
+/*!Выпадающие меню*/
+
+.dws-menu *{
+ margin: 0;
+ padding: 0;
+}
+header {
+	margin-top:10px;
+	margin-bottom: 20px;	
+}
+.dws-menu ul,  
+.dws-menu ol{
+ list-style: none;
+}
+.dws-menu > ul{
+ display: flex;
+ justify-content: center;
+} 
+.dws-menu > ul li a{
+ display: block;
+ background: #fadcdc;
+ padding: 15px 30px 15px 40px;
+ font-size: 14px;
+ color: #000000;
+ text-decoration: none;
+ text-transform:uppercase;
+} 
+.dws-menu > ul li{
+ position: relative;
+ border-right: 1px solid #fadcde;
+}
+.dws-menu > ul li:first-child{
+ border-left: 1px solid #b2b3b5;
+}
+.dws-menu > ul li:last-child{
+ border-right: 1px solid #babbbd;
+} 
+.dws-menu li a:hover{
+ background: #454547;
+ color: #ffffff;
+ box-shadow: 1px 5px 10px -5px black;
+ transition: all 0.3s ease;
+} 
+/*sub menu*/
+.dws-menu li ul{
+ position: absolute;
+ display: none;
+ min-width: 150px;
+} 
+.dws-menu li > ul li{
+ border: 1px solid #fadcde;
+}
+.dws-menu li > ul li a{
+ padding: 10px;
+ text-transform: none;
+ background: x;
+} 
+.dws-menu li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+}  
+.dws-menu li:hover > ul{
+ display: block;
+}
+
+/*!--------------------------------------------------------------------------*/
+
+
+/*Главная*/
+
+article {
+	text-align:center;
+}
+
+.next {
+	font-family: "Rubik Mono One";
+	color: rgba(90, 14, 14, 0.9) ;
+	font-size: 25px;
+}
+
+h2 {
+	margin: 15px;
+	font-size: 20px;
+	font-weight: 900;
+}
+
+#GNews {
+	margin-top: 10px;
+}
+
+/*Остальное*/
+
+#news {
+	font-size: 18px;
+}
+
+.table {
+	background-color: white;
+	border-radius: 8px;
+	margin: 15px;
+}
+
+.games {
+	color: #0013ba;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+/*footer*/
+
+#down, footer{
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 25px;	
+	padding: 10px;
+	margin-top: 250px;	
+}
+
+#adres {
+	color: white;
+	font-size: 16px	;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;; 
+}
+
+#contact {
+	text-align: right;
+	font-size: 16px;
+	color: white;
+}
